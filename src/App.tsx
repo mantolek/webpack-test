@@ -1,13 +1,13 @@
 import React, {useEffect} from 'react';
 import './styles/App.scss';
 
-function App() {
+const App: React.FC = () => {
     useEffect(() => {
         console.log('343434343')
     }, [])
     return (
         <div>
-            APPg
+            app
         </div>
     )
 }
